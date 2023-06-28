@@ -1,9 +1,16 @@
+import React from "react";
 import "./App.css";
+
+//components
+
+import InputTodo from "./components/InputTodo";
 
 function App() {
 	return (
 		<>
-			<div>React - test</div>
+			<div className='container'>
+				<InputTodo />
+			</div>
 		</>
 	);
 }
